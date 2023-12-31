@@ -1,0 +1,27 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+}
+
+header {
+    background-color: #FDFCF5;
+    color: #63A3AA;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    padding: 0 1rem;
+    text-decoration: none;
+
+}
+
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    flex: 1 0 auto;
+    background-color: #63A3AA;
+}
