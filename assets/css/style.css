@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalnia:wght@400;500&display=swap');
+
 body {
     min-height: 100vh;
     display: flex;
@@ -5,23 +7,108 @@ body {
 
 }
 
+/* Header and Logo Styling*/
 header {
     background-color: #FDFCF5;
     color: #63A3AA;
     position: fixed;
-    z-index: 99;
     width: 100%;
-    padding: 0 1rem;
     text-decoration: none;
-
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 0 1rem;
+    text-align: left;
 }
 
+a {
+    text-decoration: none;
+}
 
 h1 {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Kalnia, Helvetica, sans-serif;
+    text-align: left;
+
 }
+
+/* Navigation Menu Styling*/
+nav {
+    text-decoration-color: #63A3AA;
+    position: absolute;
+    background-color: #FDFCF5;
+    left: 0;
+    width: 100%;
+    padding: 0 1rem;
+    font-family: Kalnia, Helvetica, sans-serif;
+    display: none;
+    top: 100%;
+    list-style-type: none;
+    justify-content: space-between;
+
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline;
+    margin-right: 20px;
+}
+
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 2rem;
+    padding-right: 2rem;
+
+}
+
+main {
+    margin-top: 25%;
+}
+
+/*Main content styling*/
 
 main {
     flex: 1 0 auto;
     background-color: #63A3AA;
+}
+
+/*Media Responsiveness - larger screens*/
+
+@media screen and (min-width: 768px) {
+
+    /*header*/
+    nav {
+        display: block;
+        position: relative;
+        width: fit-content;
+        padding-right: 1rem;
+    }
+
+    nav>ul {
+        display: flex;
+        padding-right: 2rem;
+
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
+
+    header {
+        font-size: 125%;
+    }
+
+    /*main content*/
+    main {
+        margin-top: 79px;
+    }
 }
