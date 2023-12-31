@@ -23,6 +23,12 @@ header {
 
 a {
     text-decoration: none;
+    color: #63A3AA;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #63A3AA;
 }
 
 h1 {
@@ -33,7 +39,8 @@ h1 {
 
 /* Navigation Menu Styling*/
 nav {
-    text-decoration-color: #63A3AA;
+    text-decoration: none;
+    color: #63A3AA;
     position: absolute;
     background-color: #FDFCF5;
     left: 0;
@@ -70,15 +77,26 @@ li {
 
 }
 
-main {
-    margin-top: 25%;
-}
 
 /*Main content styling*/
 
 main {
     flex: 1 0 auto;
     background-color: #63A3AA;
+    margin-top: 25%;
+}
+
+/*Footer styling*/
+footer {
+    background-color: #FDFCF5;
+}
+
+#social-media {
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 200%;
+
 }
 
 /*Media Responsiveness - larger screens*/
