@@ -82,13 +82,20 @@ li {
 
 main {
     flex: 1 0 auto;
-    background-color: #63A3AA;
     margin-top: 25%;
+    background-color: #FDFCF5;
+}
+
+#plane {
+    height: 300px;
+    Width: 100%;
+    background: url("../images/Plane.jpg") no-repeat center center/cover;
 }
 
 /*Footer styling*/
 footer {
     background-color: #FDFCF5;
+    border-top: 2px solid #63A3AA;
 }
 
 #social-media {
