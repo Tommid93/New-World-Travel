@@ -1,16 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Kalnia:wght@400;500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Kalnia:wght@400;500&display=swap");
 
 body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-
 }
 
 /* Header and Logo Styling*/
 header {
-    background-color: #FDFCF5;
-    color: #63A3AA;
+    background-color: #fdfcf5;
+    color: #63a3aa;
     position: fixed;
     width: 100%;
     text-decoration: none;
@@ -21,28 +20,43 @@ header {
     text-align: left;
 }
 
+
 a {
     text-decoration: none;
-    color: #63A3AA;
+    color: #63a3aa;
 }
 
 a:visited {
     text-decoration: none;
-    color: #63A3AA;
+    color: #63a3aa;
 }
 
 h1 {
     font-family: Kalnia, Helvetica, sans-serif;
     text-align: left;
+    color: #63a3aa;
+}
 
+h2 {
+    font-family: Kalnia, Helvetica, sans-serif;
+    text-align: center;
+    color: #63a3aa;
+}
+
+section {
+    font-family: Kalnia, Helvetica, sans-serif;
+    text-align: center;
+    color: #63a3aa;
+    border-bottom: solid 2px #63a3aa;
+    background-color: #fdfcf5;
 }
 
 /* Navigation Menu Styling*/
 nav {
     text-decoration: none;
-    color: #63A3AA;
+    color: #63a3aa;
     position: absolute;
-    background-color: #FDFCF5;
+    background-color: #fdfcf5;
     left: 0;
     width: 100%;
     padding: 0 1rem;
@@ -51,7 +65,6 @@ nav {
     top: 100%;
     list-style-type: none;
     justify-content: space-between;
-
 }
 
 ul {
@@ -74,28 +87,31 @@ li {
 .nav-toggle-label {
     font-size: 2rem;
     padding-right: 2rem;
-
 }
-
 
 /*Main content styling*/
 
 main {
     flex: 1 0 auto;
     margin-top: 25%;
-    background-color: #FDFCF5;
+    background-color: #fdfcf5;
+    font-family: Kalnia, Helvetica, sans-serif;
+    color: #63a3aa;
+    text-align: center;
 }
 
 #plane {
     height: 300px;
-    Width: 100%;
+    width: 100%;
     background: url("../images/Plane.jpg") no-repeat center center/cover;
 }
 
+
+
 /*Footer styling*/
 footer {
-    background-color: #FDFCF5;
-    border-top: 2px solid #63A3AA;
+    background-color: #fdfcf5;
+    border-top: 2px solid #63a3aa;
 }
 
 #social-media {
@@ -103,7 +119,6 @@ footer {
     display: flex;
     justify-content: space-evenly;
     font-size: 200%;
-
 }
 
 /*Media Responsiveness - larger screens*/
@@ -121,7 +136,6 @@ footer {
     nav>ul {
         display: flex;
         padding-right: 2rem;
-
     }
 
     .nav-toggle-label {
@@ -136,4 +150,10 @@ footer {
     main {
         margin-top: 79px;
     }
+}
+
+h2 {
+    font-family: Kalnia, Helvetica, sans-serif;
+    text-align: center;
+    color: #63a3aa;
 }
