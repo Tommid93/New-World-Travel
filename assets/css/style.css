@@ -9,7 +9,7 @@ body {
 /* Header and Logo Styling*/
 header {
     background-color: #fdfcf5;
-    color: #63a3aa;
+    color: #49787d;
     position: fixed;
     width: 100%;
     text-decoration: none;
@@ -18,20 +18,19 @@ header {
     align-items: baseline;
     padding: 0 1rem;
     text-align: left;
-    box-shadow: 0 2px 2px #63a3aa;
-
+    box-shadow: 0 2px 2px #49787d;
 }
 
 /* General styling */
 
 a {
     text-decoration: none;
-    color: #63a3aa;
+    color: #49787d;
 }
 
 a:visited {
     text-decoration: none;
-    color: #63a3aa;
+    color: #49787d;
 }
 
 a:hover {
@@ -41,24 +40,23 @@ a:hover {
 h1 {
     font-family: Kalnia, Helvetica, sans-serif;
     text-align: left;
-    color: #63a3aa;
+    color: #49787d;
 }
 
 h2 {
     font-family: Kalnia, Helvetica, sans-serif;
     text-align: center;
-    color: #63a3aa;
+    color: #49787d;
 }
 
 section {
     font-family: Kalnia, Helvetica, sans-serif;
     text-align: center;
-    color: #63a3aa;
-    border-bottom: solid 1px #63a3aa;
+    color: #49787d;
+    border-bottom: solid 1px #49787d;
     background-color: #fdfcf5;
     margin-top: 2.5%;
 }
-
 
 /* Navigation Menu Styling*/
 nav {
@@ -105,7 +103,7 @@ main {
     margin-top: 25%;
     background-color: #fdfcf5;
     font-family: Kalnia, Helvetica, sans-serif;
-    color: #63a3aa;
+    color: #49787d;
     text-align: center;
 }
 
@@ -142,7 +140,7 @@ main {
 /* Form Stylings */
 
 button {
-    background-color: #63a3aa;
+    background-color: #49787d;
     border-radius: 5px;
     border: none;
     box-shadow: 0 0 3px 3px rgba(0, 0, 0, 0.06);
@@ -170,7 +168,7 @@ input {
 /*Footer styling*/
 footer {
     background-color: #fdfcf5;
-    border-top: 2px solid #63a3aa;
+    border-top: 2px solid #49787d;
 }
 
 #social-media {
