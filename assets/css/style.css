@@ -53,6 +53,7 @@ section {
     margin-top: 2.5%;
 }
 
+
 /* Navigation Menu Styling*/
 nav {
     text-decoration: none;
@@ -129,6 +130,29 @@ main {
     height: 200px;
 }
 
+button {
+    background-color: #63a3aa;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 0 3px 3px rgba(0, 0, 0, 0.06);
+    color: white;
+    curser: pointer;
+    margin-bottom: 10px;
+}
+
+form {
+    text-align: center;
+}
+
+input {
+    padding: 0 1rem;
+    margin: 10px;
+    box-shadow: 0 0 3px 3px rgba(0, 0, 0, 0.06);
+    border: none;
+    align: center;
+    width: 75%;
+}
+
 /*Footer styling*/
 footer {
     background-color: #fdfcf5;
@@ -182,5 +206,9 @@ footer {
 
     .outer-div {
         display: flex;
+    }
+
+    input {
+        width: 50%;
     }
 }
