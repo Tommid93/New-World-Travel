@@ -22,6 +22,8 @@ header {
 
 }
 
+/* General styling */
+
 a {
     text-decoration: none;
     color: #63a3aa;
@@ -30,6 +32,10 @@ a {
 a:visited {
     text-decoration: none;
     color: #63a3aa;
+}
+
+a:hover {
+    color: black;
 }
 
 h1 {
@@ -92,7 +98,7 @@ li {
     padding-right: 2rem;
 }
 
-/*Main content styling*/
+/*Index page Main content styling*/
 
 main {
     flex: 1 0 auto;
@@ -109,11 +115,14 @@ main {
     background: url("../images/Plane.jpg") no-repeat center center/cover;
 }
 
+/* About page main content styling */
 #sunset {
-    height: 200px;
+    height: 300px;
     width: 100%;
     background: url("../images/Sunset.jpeg") no-repeat center center/cover;
 }
+
+/* Destinations page main content styling */
 
 .lanzarote {
     width: 100%;
@@ -130,6 +139,8 @@ main {
     height: 200px;
 }
 
+/* Form Stylings */
+
 button {
     background-color: #63a3aa;
     border-radius: 5px;
@@ -138,6 +149,10 @@ button {
     color: white;
     curser: pointer;
     margin-bottom: 10px;
+}
+
+button:hover {
+    background-color: black;
 }
 
 form {
