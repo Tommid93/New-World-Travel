@@ -18,8 +18,9 @@ header {
     align-items: baseline;
     padding: 0 1rem;
     text-align: left;
-}
+    box-shadow: 0 2px 2px #63a3aa;
 
+}
 
 a {
     text-decoration: none;
@@ -47,8 +48,9 @@ section {
     font-family: Kalnia, Helvetica, sans-serif;
     text-align: center;
     color: #63a3aa;
-    border-bottom: solid 2px #63a3aa;
+    border-bottom: solid 1px #63a3aa;
     background-color: #fdfcf5;
+    margin-top: 2.5%;
 }
 
 /* Navigation Menu Styling*/
@@ -169,10 +171,16 @@ footer {
     main {
         margin-top: 79px;
     }
-}
 
-h2 {
-    font-family: Kalnia, Helvetica, sans-serif;
-    text-align: center;
-    color: #63a3aa;
+    #img-l {
+        width: 50%;
+    }
+
+    #text-r {
+        width: 120%;
+    }
+
+    .outer-div {
+        display: flex;
+    }
 }
