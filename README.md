@@ -5,10 +5,10 @@ The New World Travel site is designed to be a type of blog for holiday and lover
 They will be able to find lots of information as well as subscribing to a newsletter that will inform users on new destinations being added by filling out a very short form.
 
 This is an image of the responsiveness for the index page.
-<img src="assets/images/Index-responsiveness.png>
+![index responsiveness](https://github.com/Tommid93/New-World-Travel/blob/main/assets/images/Index-Responsiveness.png)
 
 This is an image of the responsiveness for the About page.
-<img src="assets/images/About-responsiveness.png>
+![About Responsiveness](https://github.com/Tommid93/New-World-Travel/blob/main/assets/images/About-Responsiveness.png)
 
-This is an image of the responsiveness for the About page.
-<img src="assets/images/Destinations-responsiveness.png>
+This is an image of the responsiveness for the Destinations page.
+![Destinations responsiveness](https://github.com/Tommid93/New-World-Travel/blob/main/assets/images/Destinations-Responsiveness.png)
