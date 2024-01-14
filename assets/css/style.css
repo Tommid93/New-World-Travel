@@ -211,12 +211,12 @@ footer {
         margin-top: 79px;
     }
 
-    #img-l {
-        width: 50%;
+    .img-l {
+        width: 40%;
     }
 
-    #text-r {
-        width: 120%;
+    .text-r {
+        width: 60%;
     }
 
     .outer-div {
