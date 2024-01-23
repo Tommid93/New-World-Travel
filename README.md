@@ -8,39 +8,35 @@ This is an image of the responsiveness for the index page.
 ![index responsiveness](https://github.com/Tommid93/New-World-Travel/blob/main/assets/images/Index-Responsiveness.png)
 
 This is an image of the responsiveness for the About page.
-![About Responsiveness](https://github.com/Tommid93/New-World-Travel/blob/main/assets/images/About-Responsiveness.png)
+![About Responsiveness](https://github.com/Tommid93/New-World-Travel/blob/main/assets/images/about-Responsiveness.png)
 
 This is an image of the responsiveness for the Destinations page.
-![Destinations responsiveness](https://github.com/Tommid93/New-World-Travel/blob/main/assets/images/Destinations-Responsiveness.png)
+![Destinations responsiveness](https://github.com/Tommid93/New-World-Travel/blob/main/assets/images/destinations-responsiveness.png)
 
 # Features
 
 ## Nav Menu
 Every single page has the same navigation menu. The menu has a link to all 3 pages. The navigation menu is responsive on mobile. The links condense into 3 lines on mobile and when clicked the links will appear. It will allow users to navigate the website with ease without having to click the back button
 
-![Nav-Desktop](https://github.com/Tommid93/New-World-Travel/blob/main/assets/images/Nav%3DDesktop.png)
-![Nav-Mobile](https://github.com/Tommid93/New-World-Travel/blob/main/assets/images/Nav-Mobile.png)
-![Nav-Mobile2](https://github.com/Tommid93/New-World-Travel/blob/main/assets/images/Nav-Menu2.png)
+![Nav-Desktop](https://github.com/Tommid93/New-World-Travel/blob/main/assets/images/nav-desktop.png)
+![Nav-Mobile](https://github.com/Tommid93/New-World-Travel/blob/main/assets/images/nav-mobile.png)
+![Nav-Mobile2](https://github.com/Tommid93/New-World-Travel/blob/main/assets/images/nav-menu2.png)
 
 ## Main Page
-The main page has an image of a plane to match the theme of the site with a brief overview introducing what the site is about
+The main page has an image of a sunset to match the theme of the site with a brief overview introducing what the site is about. It also comes with an about us section again just explaining what we were trying to achieve.
 ![Main-Page](https://github.com/Tommid93/New-World-Travel/blob/main/assets/images/main-page.png)
 
-## Subscription Form
-At the bottom of every page there is a subscription form. This form allows users to input a few basic details including email address that would add them onto a mailing list to be notified of new destinations being added to the destinations page. The form has been styled and created with validation meaning you cannot press submit without at least entering a valid email address
-![Subscription-Fomm](https://github.com/Tommid93/New-World-Travel/blob/main/assets/images/Subscription-Form.png)
+## Contact Form and page
+The third page of the site is a contact us page that comes with a contactfform.. This form allows users to input a few basic details and once submitted, we would be able to send them a personalised holiday recommendation based on the information provided. The form has been styled and created with validation meaning you cannot press submit without at least entering a valid email address, name and details of a dream holiday.
+![Subscription-Fomm](https://github.com/Tommid93/New-World-Travel/blob/main/assets/images/contact-us.png)
 
 ## Footer
 The footer is the same on every page. It provides 3 links to social media platforms. The links open in new tabs so that they do not have to leave the site but encourages users to subscribe to multiple platforms
-![Footer](https://github.com/Tommid93/New-World-Travel/blob/main/assets/images/Footer.png)
-
-## About Page
-The about page features a brief overview of what the site is trying to achieve and why the site was developed. It is also accompanied by a picture of a beach during a sunset to match the theme of travelling.
-![About](https://github.com/Tommid93/New-World-Travel/blob/main/assets/images/About.png)
+![Footer](https://github.com/Tommid93/New-World-Travel/blob/main/assets/images/footer.png)
 
 ## Destinations Page
 The destinations page features the small list of visited destinations and a paragraph explaining the attraction to each location and so must do activities. Each destination is accompaniesd by a picture of each location. This page is responsive so that the image and text move alongside each other and flow more freely on larger screens.
-![Destinations](https://github.com/Tommid93/New-World-Travel/blob/main/assets/images/Destinations.png) 
+![Destinations](https://github.com/Tommid93/New-World-Travel/blob/main/assets/images/destination.png) 
 
 # Testing and Bugs/issues
 I have tested all links on all pages and found no broken links and all of them are linked to the correct pages. The navigation bar was tested on multiple devices and works really well on mobile devices meaning it is hidden until asked for making the page much more pleasant and responsive for the user. 
@@ -63,14 +59,21 @@ CSS - I found no errors when running this through the Jigsaw Validator
 I completed a lighthouse check on all of my pages for mobile and desktop. I have provided images of these below
 
 These are the main page lighthouse validator results.
-![Lighthouse-index](https://github.com/Tommid93/New-World-Travel/blob/main/assets/images/Lighthouse-Index-Desktop.png)
-![Lighthouse-Index-Mobile](https://github.com/Tommid93/New-World-Travel/blob/main/assets/images/Lighthouse-Index-Mobile.png)
+![Lighthouse-index](https://github.com/Tommid93/New-World-Travel/blob/main/assets/images/lighthouse-index-desktop.png)
+
+![Lighthouse-Index-Mobile](https://github.com/Tommid93/New-World-Travel/blob/main/assets/images/lighthouse-index-mobile.png)
+
 These are the about page lighthouse validator results.
-![Lighthouse-About](https://github.com/Tommid93/New-World-Travel/blob/main/assets/images/Lighthouse-About-Desktop.png)
-![Lighthouse-About-Mobile](https://github.com/Tommid93/New-World-Travel/blob/main/assets/images/Lighthouse-About-Mobile.png)
+
+![Lighthouse-About](https://github.com/Tommid93/New-World-Travel/blob/main/assets/images/lighthouse-about-desktop.png)
+
+![Lighthouse-About-Mobile](https://github.com/Tommid93/New-World-Travel/blob/main/assets/images/lighthouse-about-mobile.png)
+
 These are the destinations lighthouse validator results.
-![Lighthouse-Destinations](https://github.com/Tommid93/New-World-Travel/blob/main/assets/images/Lighthouse-Desinations-Desktop.png)
-![Lighthouse-Destinations-Mobile](https://github.com/Tommid93/New-World-Travel/blob/main/assets/images/Lighthouse-Destinations-Mobile.png)
+
+![Lighthouse-Destinations](https://github.com/Tommid93/New-World-Travel/blob/main/assets/images/lighthouse-desinations-desktop.png)
+
+![Lighthouse-Destinations-Mobile](https://github.com/Tommid93/New-World-Travel/blob/main/assets/images/lighthouse-destinations-mobile.png)
 
 # Deployment
 To deploy my site on Git Hub I made the following steps. These instructions were taken from the love running project.
@@ -87,7 +90,13 @@ To deploy my site on Git Hub I made the following steps. These instructions were
 Please see the URL for the live site.  https://tommid93.github.io/New-World-Travel/
 
 # Credit
-All images for the site were taken from https://www.pexels.com/
+All images for the site were taken from https://www.pexels.com/. The links for all of my images are below.
+https://www.pexels.com/photo/photo-of-colosseum-during-daytime-2676642/
+https://www.pexels.com/photo/skyline-photo-of-empire-state-building-in-new-york-city-2190283/
+https://www.pexels.com/photo/a-beach-with-boats-and-a-rocky-shore-18501187/
+https://www.pexels.com/photo/two-men-standing-on-seashore-827152/
+https://www.pexels.com/photo/las-vegas-illuminated-at-dusk-18041018/
+
 
 The logo images issued in the footer were from https://fontawesome.com/
 
