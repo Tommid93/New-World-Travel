@@ -28,19 +28,20 @@
     <main>
       <section>
         <h2>Contact Us Below</h2>
-        <p>Would you like to receive a personalised holiday recommendation, fill out a few small details below and we'll be in touch with the perfect destination</p>
+        <p>Would you like to receive a personalised holiday recommendation? Fill out a few small details below and we'll be in touch with the perfect destination</p>
        
         
 
       <!--Contact Form-->
       <section>
+    
         <form action="https://formdump.codeinstitute.net" method="POST">
           <div>
             <label for="first-name">First Name</label>
             <input
               id="first-name"
               type="text"
-              placeholder="Please enter your first name"
+              placeholder="Please enter your first name" required
             />
           </div>
           <div>
@@ -48,7 +49,7 @@
             <input
               id="surname"
               type="text"
-              placeholder="Please enter your surname"
+              placeholder="Please enter your surname" required
             />
           </div>
           <div>
@@ -59,9 +60,14 @@
               placeholder="Please enter your email address"
               required
             />
-          </div>
-          <button type="submit">Subscribe</button>
+            </div>
+            <div>
+                <label for="details">Details</label>
+            <input id="details" type=text-area placeholder="Tell us about your dream holiday" style="height: 100px" required>
+            </div>
+          <button type="submit">Submit Details</button>
         </form>
+    
       </section>
     </main>
 
