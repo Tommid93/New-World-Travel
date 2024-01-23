@@ -7,6 +7,7 @@ body {
 }
 
 /* Header and Logo Styling*/
+
 header {
     background-color: #fdfcf5;
     color: #49787d;
@@ -61,6 +62,7 @@ section {
 }
 
 /* Navigation Menu Styling*/
+
 nav {
     text-decoration: none;
     color: #63a3aa;
@@ -109,17 +111,10 @@ main {
     text-align: center;
 }
 
-#plane {
-    height: 300px;
-    width: 100%;
-    background: url("../images/Plane.jpg") no-repeat center center/cover;
-}
-
-/* About page main content styling */
 #sunset {
     height: 300px;
     width: 100%;
-    background: url("../images/Sunset.jpeg") no-repeat center center/cover;
+    background: url("../images/sunsetsea.jpeg") no-repeat center center/cover;
 }
 
 /* Destinations page main content styling */
@@ -139,9 +134,12 @@ main {
     height: 200px;
 }
 
+.vegas {
+    width: 100%;
+    height: 200px;
+}
+
 /* Form Stylings */
-
-
 
 button {
     background-color: #49787d;
@@ -154,7 +152,7 @@ button {
     height: 30px;
     width: 75%;
     align-items: center;
-    font-size: 100%
+    font-size: 100%;
 }
 
 button:hover {
@@ -165,7 +163,6 @@ form {
     text-align: left;
     display: inline-block;
     margin-left: -10px;
-
 }
 
 input {
@@ -178,13 +175,12 @@ input {
     margin-bottom: 10px;
 }
 
-
-
 label {
-    display: block
+    display: block;
 }
 
 /*Footer styling*/
+
 footer {
     background-color: #fdfcf5;
     border-top: 2px solid #49787d;
@@ -200,8 +196,8 @@ footer {
 /*Media Responsiveness - larger screens*/
 
 @media screen and (min-width: 768px) {
-
     /*header*/
+
     nav {
         display: block;
         position: relative;
@@ -223,7 +219,7 @@ footer {
     }
 
     /*main content*/
-    main {
+    c main {
         margin-top: 79px;
     }
 
@@ -233,6 +229,12 @@ footer {
 
     .text-r {
         width: 70%;
+        text-align: left;
+        margin-left: 20px;
+    }
+
+    .header-l {
+        text-align: left;
     }
 
     .outer-div {
@@ -246,5 +248,4 @@ footer {
     form {
         margin-left: -100px;
     }
-
 }

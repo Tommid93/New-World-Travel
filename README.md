@@ -24,7 +24,7 @@ Every single page has the same navigation menu. The menu has a link to all 3 pag
 
 ## Main Page
 The main page has an image of a plane to match the theme of the site with a brief overview introducing what the site is about
-![Main-Page](https://github.com/Tommid93/New-World-Travel/blob/main/assets/images/Main-Page.png)
+![Main-Page](https://github.com/Tommid93/New-World-Travel/blob/main/assets/images/main-page.png)
 
 ## Subscription Form
 At the bottom of every page there is a subscription form. This form allows users to input a few basic details including email address that would add them onto a mailing list to be notified of new destinations being added to the destinations page. The form has been styled and created with validation meaning you cannot press submit without at least entering a valid email address
