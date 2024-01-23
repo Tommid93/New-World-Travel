@@ -63,6 +63,7 @@ HTML - I found no errors when running this through the W3C Validator. There was 
 
 
 CSS - I found no errors when running this through the Jigsaw Validator
+![Css Validator](https://github.com/Tommid93/New-World-Travel/blob/main/assets/images/css-validator.png)
 
 ## Lighthouse Validation
 I completed a lighthouse check on all of my pages for mobile and desktop. I have provided images of these below
