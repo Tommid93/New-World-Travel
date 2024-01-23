@@ -2,16 +2,23 @@
 
 The New World Travel site is designed to be a type of blog for holiday and lovers. It is designed to allow people to read valuable information on specific holiday and travel locations to help users decide on destinations or even create a travel bucket list.
 
-They will be able to find lots of information as well as subscribing to a newsletter that will inform users on new destinations being added by filling out a very short form.
+They will be able to find lots of information as well as receiving a personalised destination recommendation by filling out a very short form.
 
-This is an image of the responsiveness for the index page.
-![index responsiveness](https://github.com/Tommid93/New-World-Travel/blob/main/assets/images/Index-Responsiveness.png)
+# Planning
+## My aim
+My overall aim was to create a website that passionate travellers could visit to read about all different destinations or for us to help.
 
-This is an image of the responsiveness for the About page.
-![About Responsiveness](https://github.com/Tommid93/New-World-Travel/blob/main/assets/images/about-Responsiveness.png)
+## User experience
+I wanted my users to have a seemless experience and to find it easy to navigate the different pages and features
 
-This is an image of the responsiveness for the Destinations page.
-![Destinations responsiveness](https://github.com/Tommid93/New-World-Travel/blob/main/assets/images/destinations-responsiveness.png)
+## Intended Users
+The intended users for this project was for anybody who had an interest or passion for travelling
+
+## Site Features
+I wanted the site to have lots of images of potential destinations that fit in with the theme with a good encylopedia of information. However I also wanted the user to have the ability to contact us directly for a more personalised experience.
+
+This is an image of the responsiveness for the index page taken from amiresponsive.com
+![index responsiveness](https://github.com/Tommid93/New-World-Travel/blob/main/assets/images/am-i-responsive.png)
 
 # Features
 
@@ -51,7 +58,9 @@ I found there was a big issue during my project that I had to seek tutor support
 With relation to this they also found an issue meaning every time I wanted my Git Commits to actually show in my repository I also had to do an additional Git Push action.
 
 ## Validator Testing
-HTML - I found no errors when running this through the W3C Validator
+HTML - I found no errors when running this through the W3C Validator. There was some guidance with regards to some slashes. I attempted to correct this, however when I saved the document, CodeAnywhere took it back to the original state meaning I could not fix further. 
+![W3C Validator](https://github.com/Tommid93/New-World-Travel/blob/main/assets/images/html-validator.png)
+
 
 CSS - I found no errors when running this through the Jigsaw Validator
 
@@ -62,12 +71,6 @@ These are the main page lighthouse validator results.
 ![Lighthouse-index](https://github.com/Tommid93/New-World-Travel/blob/main/assets/images/lighthouse-index-desktop.png)
 
 ![Lighthouse-Index-Mobile](https://github.com/Tommid93/New-World-Travel/blob/main/assets/images/lighthouse-index-mobile.png)
-
-These are the about page lighthouse validator results.
-
-![Lighthouse-About](https://github.com/Tommid93/New-World-Travel/blob/main/assets/images/lighthouse-about-desktop.png)
-
-![Lighthouse-About-Mobile](https://github.com/Tommid93/New-World-Travel/blob/main/assets/images/lighthouse-about-mobile.png)
 
 These are the destinations lighthouse validator results.
 
@@ -101,6 +104,8 @@ https://www.pexels.com/photo/las-vegas-illuminated-at-dusk-18041018/
 The logo images issued in the footer were from https://fontawesome.com/
 
 The Nav Menu toggle button for mobile devices was also taken from https://fontawesome.com/
+
+My mobile navigation menu had some code from the love running project. I really liked their way of condensing down the nav menu for mobile devices and so I made extensive notes so that I could impliment my own version of this.
 
 # Other General Project Advice/ Lessons
 The biggest lesson I learnt from this project is to ensure that you commit to Git Hub often and regularly. Initially at the start of the project this was not my strongest area. However further down the line I could see how regular commits would benefit an entire team who were working on a project together as they could see the progress made and the different developmental stages. I did notice towards the end that as I got further into the project I found more ways to improve so did find myself revisting certain sections to either rectify issues or to make them better.
