@@ -19,6 +19,7 @@ header {
     padding: 0 1rem;
     text-align: left;
     box-shadow: 0 2px 2px #49787d;
+    margin-left: -10px;
 }
 
 /* General styling */
@@ -56,6 +57,7 @@ section {
     border-bottom: solid 1px #49787d;
     background-color: #fdfcf5;
     margin-top: 2.5%;
+    padding-top: 10px;
 }
 
 /* Navigation Menu Styling*/
