@@ -58,7 +58,8 @@ section {
     border-bottom: solid 1px #49787d;
     background-color: #fdfcf5;
     margin-top: 2.5%;
-    padding-top: 10px;
+    padding-top: 5px;
+    padding-bottom: 20px;
 }
 
 /* Navigation Menu Styling*/
@@ -149,10 +150,11 @@ button {
     color: white;
     cursor: pointer;
     margin-bottom: 10px;
-    height: 30px;
-    width: 75%;
+    height: 50px;
+    width: 120%;
     align-items: center;
     font-size: 100%;
+    margin-top: 10px;
 }
 
 button:hover {
@@ -247,5 +249,9 @@ footer {
 
     form {
         margin-left: -100px;
+    }
+
+    button {
+        width: 220%;
     }
 }
